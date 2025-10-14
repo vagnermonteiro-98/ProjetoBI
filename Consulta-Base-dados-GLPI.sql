@@ -1,3 +1,18 @@
+/*
+
+Acesso a base:
+link : https://metabase.si.valid.com.br:3000/question/56-consulta-de-dados-all
+Login: teste@valid.com
+senha HIiV4vQ6E6KiA
+
+
+
+Consulta SQL que trás os dados dos chamados do GLPI
+
+*/
+
+
+
 WITH CTE AS (
     SELECT
   tecnico_completo,  
@@ -52,7 +67,5 @@ FROM CTE
 WHERE Fila IS NOT NULL;
 
 
-Acesso a base:
-link : https://metabase.si.valid.com.br:3000/question/56-consulta-de-dados-all
-Login: teste@valid.com
-senha HIiV4vQ6E6KiA
+
+
