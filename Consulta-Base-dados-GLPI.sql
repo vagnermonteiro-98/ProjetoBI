@@ -3,7 +3,7 @@
 Acesso a base:
 link : https://metabase.si.valid.com.br:3000/question/56-consulta-de-dados-all
 Login: teste@valid.com
-senha HIiV4vQ6E6KiA
+senha 99999999999
 
 
 
@@ -65,6 +65,7 @@ SELECT *
 FROM CTE
 
 WHERE Fila IS NOT NULL;
+
 
 
 
